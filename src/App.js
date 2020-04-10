@@ -1,25 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SalesTable from './SalesTable';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h3>매출을 관리해보즈아~</h3>
+    <SalesTable></SalesTable>
+    </>
   );
 }
 
